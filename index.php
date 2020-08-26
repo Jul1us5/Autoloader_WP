@@ -25,6 +25,7 @@ function event_list(){
     
     require 'vendor/autoload.php';
 
+    echo "<br/>";
     $model = new Model;
     echo "<br/>";
     $controller = new Controller; 
