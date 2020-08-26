@@ -1,0 +1,12 @@
+{
+    "name": "vendor/autoload.php",
+    "require": {
+        "monolog/monolog": "1.0.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "MyApp\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
